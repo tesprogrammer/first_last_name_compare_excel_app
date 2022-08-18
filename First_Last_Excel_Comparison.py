@@ -9,9 +9,6 @@ root = Tk()
 root.geometry('604x360+400+200')
 root.title("Excel Comparison")
 
-f1 = ""
-f2 = ""
-
 
 class Compare():
     def __init__(self):
