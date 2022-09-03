@@ -90,7 +90,7 @@ class Compare():
 
     def finalMessage(self):
         C.change_pic2()
-        root.update()
+        root.update() # refreshes UI to update checked box thumbnail
         time.sleep(2)
         messagebox.showinfo("", "Analyzed and exported")
 
